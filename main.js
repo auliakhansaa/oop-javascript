@@ -37,7 +37,7 @@ ktp.pekerjaan.forEach(function(item) {
 }) 
    
 // Array literal
-const namaKeluarga = ["Sabana", "Sabrina", "Sabarna"];
+const namaKeluarga = ["Sabana", "Sabrina", "Sabarna", "andi"];
 // Array with multiple lines
 const namaKartuKeluarga = [
     "Pak Sabana",
@@ -45,9 +45,11 @@ const namaKartuKeluarga = [
     "Nak Sabrina"
 ];
 
+console.log(namaKeluarga) 
+
 // Array with new keyword
 const namaKK = new Array("Sabana", "Sabrina", "Sabarna");
-console.log(namaKeluarga) 
+console.log(namaKK) 
 console.log(namaKartuKeluarga.length) // Output: 3
 
 // Nested Array
@@ -62,3 +64,12 @@ console.log(fruits)
 // Array pop
 fruits.pop()
 console.log(fruits)
+
+
+function volumeBolaPejal(r){
+    const hasil = 4/3*r;
+    return hasil;
+}
+
+const vBP = volumeBolaPejal(7);
+console.log(vBP);
